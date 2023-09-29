@@ -1,0 +1,142 @@
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetCare</title>
+    <!-- tipografias -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hepta+Slab:wght@300&family=Outfit:wght@400;500&display=swap"
+        rel="stylesheet">
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link href="styles.css" rel="stylesheet">
+    <!-- google icons -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+</head>
+
+<body>
+    <main>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand font-titles" href="#hero">PetCare</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#header-navbar" aria-controls="header-navbar" aria-expanded="false"
+                        aria-label="Abrir navegación">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="header-navbar">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link font-titles" aria-current="page" href="#app">PetCare app</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link font-titles" aria-current="page" href="#caracteristicas">Caracteristicas</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link font-titles" aria-current="page" href="#contacto">Contactanos</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <section class="text-center position-relative" id="hero">
+            <h1 class="display-5 fw-bold">Consiente a tu engreído con los expertos!</h1>
+            <div class="col-lg-6 mx-auto">
+                <p class="lead mb-4">Con PetCare estaras seguro, pues recibiras un servicio de profesionales o expertos para adiestrar o pasear a tu compañero de 
+                    4 patas. Además, tendras ayuda para mejorar el cuidado de tu mascota.</p>
+                <div class="d-sm-flex justify-content-sm-center">
+                    <a role="button" class="btn btn-light btn-lg px-4 gap-3" href="#descargar">Descargar</a>
+                </div>
+            </div>
+        </section> 
+        <section class="my-5 mx-5 mx-lg-8 text-center" id="informacion">
+            <h1 class="display-10 lh-1 mb-4 second-titles">Sobre la aplicación</h1>
+            <p>Somos una Startup que emergió en el año 2023 compuesta por estudiantes universitarios de la Universidad Peruana de Ciencias Aplicadas.
+                Nuestro objetivo es facilitar el proceso de búsqueda de un buen cuidador/adiestrados/paseador de mascotas y tener la veracidad de sus servicios,
+                 utilizando las diversas tecnologías de nuestra época.
+            </p>
+        </section>
+        <section class="my-5" id="caracteristicas">
+            <h1 class="display-10 lh-1 mb-3 text-center second-titles">Algunas de nuestras principales caracteristicas</h1>
+            <p class="lead mb-4 text-center">Recuerda que estas son solo algunas, tenemos muchas más!</p>
+            <div class="row align-items-center text-center mx-3 mx-lg-8">
+                <div class="col-12 col-md-3">
+                    <span class="material-symbols-outlined fs-1 mb-1">pin_drop</span>
+                    <h3 class="third-titles">Usa la aplicación en cualquier lugar</h3>
+                    <p>Lleva la aplicación siempre en tu dispositivo para poder agendar y dar seguimiento al servicio de tu engreído</p>
+                </div>
+                <div class="col-12 col-md-3">
+                    <span class="material-symbols-outlined fs-1 mb-1">phonelink_setup</span>
+                    <h3 class="third-titles">Sincroniza tus datos con tus cuentas</h3>
+                    <p>Utiliza tus cuentas en redes sociales como Google o Facebook para iniciar sesión</p>
+                </div>
+                <div class="col-12 col-md-3">
+                    <span class="material-symbols-outlined fs-1 mb-1">calendar_month</span>
+                    <h3 class="third-titles">Programa tus servicios con éxito</h3>
+                    <p>Haz que tu búsqueda del servicio sea más refinada con nuestros filtros. Tu eliges como y cuando deseas el servicio</p>
+                </div>
+                <div class="col-12 col-md-3">
+                    <span class="material-symbols-outlined fs-1 mb-1">search</span>
+                    <h3 class="third-titles">Selecciona y encuentra información</h3>
+                    <p>Encontrarás suficiente información de los profesionales y expertos a tu alcance</p>
+                </div>
+            </div>
+        </section>
+        <section class="container col-xxl-8 px-4 py-5" id="app">
+            <h1 class="display-10 lh-1 mb-5 text-center second-titles">Descarga la App</h1>
+            <div class="row align-items-center">
+                <div class="col-6">
+                    <img src="assets/images/app_store.png" alt="boton app store" class="img-fluid">
+                </div>
+                <div class="col-6">
+                    <img src="assets/images/play_store.png" alt="boton play store" class="img-fluid">
+                </div>
+            </div>
+        </section>
+        <section id="contacto">
+            <div class="row flex-lg-row-reverse align-items-center g-5 py-5 mx-4">
+                <div class="col-12 col-sm-8 col-lg-6 mt-1">
+                    <h3 class="second-titles">¿Quieres conocer más acerca de PetCare y sus beneficios?</h3>
+                        <p class="lead">
+                        Completa el siguiente formulario con tus datos y consultas. Nos pondremos en contacto dentro de las siguientes 24 horas.</p>
+                </div>
+                <div class="col-sm-6">
+                    <form>
+                        <div class="row mb-3">
+                            <div class="col">
+                            <label for="nombreInput" class="form-label">Nombre</label>
+                            <input type="text" class="form-control" id="nombreInput">
+                            </div>
+                            <div class="col">
+                                <label for="apellidoInput" class="form-label">Apellidos</label>
+                                <input type="text" class="form-control" id="apellidoInput">
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="correoInput" class="form-label">Correo Electronico</label>
+                            <input type="email" class="form-control" id="correoInput" placeholder="name@gmail.com">
+                        </div>
+                        <div class="mb-3">
+                            <label for="comentarioInput" class="form-label">Comentario</label>
+                            <textarea class="form-control" id="comentarioInput" rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-warning">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
+

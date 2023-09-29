@@ -1,0 +1,59 @@
+.navbar {
+    background-image: url('/assets/images/navbar.png');
+}
+
+#hero {
+    padding: 14rem 1.5rem;
+    background-image: url('/assets/images/hero-background.png');
+    background-size: cover;
+    background-position: center;
+    color: #66624e;
+}
+
+main {
+    background-color: rgba(252,199,93,255);
+}
+
+#caracteristicas {
+    background-image: url('/assets/images/caracteristicas-background.png'); 
+    background-size: cover;
+    background-position: top;
+}
+
+#contacto {
+    background-image: url('/assets/images/info-background.png'); 
+    background-size: cover;
+    background-position: top;
+}
+
+:root {
+    --bs-body-font-family: 'Hepta Slab', var(--bs-font-sans-serif);
+    color: #121114;
+}
+
+.font-titles {
+    font-family: 'Outfit', var(--bs-font-sans-serif);
+    color: #4e2b23;
+}
+
+.second-titles {
+    font-family: 'Outfit', var(--bs-font-sans-serif);
+    color: #702619;
+}
+
+.third-titles {
+    font-family: 'Outfit', var(--bs-font-sans-serif);
+    color: #66624e;
+}
+
+.py-8 {
+    padding-top: 7rem;
+    padding-bottom: 5rem;
+}
+
+@media (min-width: 992px) {
+    .mx-lg-8 {
+        padding-left: 13rem;
+        padding-right: 13rem;
+    }
+}
